@@ -1,9 +1,9 @@
-n = int(input()) # number of balls
-balls = list(map(int, input().split())) # ball values
+n = int(input())
+balls = list(map(int, input().split()))
 
-buckets = set() # set to store the different ball values
+buckets = set()
 
 for ball in balls:
     buckets.add(ball)
 
-print(len(buckets)) # print the number of buckets
+print(len(buckets))
