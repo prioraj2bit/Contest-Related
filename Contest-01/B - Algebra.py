@@ -1,3 +1,3 @@
-a = int(input())
-b = int(input())
-print ((a*a)+(2*a*b)+(b*b))
+a, b = map(int, input().split())
+result = a**2 + 2*a*b + b**2
+print(result)
